@@ -9,8 +9,8 @@ variables:
   - name: tfl_api_key
     inputType: Secret
     description: Your TfL API key
-    defaultValue: tfl_api_key
-    required: false
+    defaultValue: tfkaecretkey
+    required: true
   - name: sleep_interval
     inputType: FreeText
     description: ''
