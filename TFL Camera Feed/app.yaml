@@ -21,11 +21,6 @@ variables:
     description: Geofence coordinates. e.g. [(LAT1,LON1),(LAT2,LON2),(LAT3,LON3)]
     defaultValue: ''
     required: false
-  - name: tfl_api_key
-    inputType: Secret
-    description: ''
-    defaultValue: tfkaecretkey
-    required: false
 dockerfile: build/dockerfile
 runEntryPoint: main.py
 defaultFile: main.py
