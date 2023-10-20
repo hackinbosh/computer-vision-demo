@@ -360,3 +360,10 @@ topics:
       replicationFactor: 2
       retentionInMinutes: 60
       retentionInBytes: 51200
+  - name: image-processed2
+    persisted: false
+    configuration:
+      partitions: 2
+      replicationFactor: 2
+      retentionInMinutes: 10080
+      retentionInBytes: 52428800
