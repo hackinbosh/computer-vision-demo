@@ -3,7 +3,7 @@ import os
 import pandas as pd
 import numpy as np
 import time
-from ultralytics import YOLO
+import YOLO
 import cv2
 
 
